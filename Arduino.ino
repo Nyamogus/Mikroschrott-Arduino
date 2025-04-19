@@ -36,7 +36,7 @@ void loop()
   Keyboard.println("D:");           // Type USB drive letter into cmd
   Keyboard.println("\\Mikroschrott\\run.bat");      // start run.bat (If path to run.bat changes, include it here)
   
-  // Optionally uncomment the lines below if your computer uses multiple drives. The drive letter should always be one more than the computer alreade has
+  // Optionally uncomment the lines below or add even more if your computer uses multiple drives. The drive letter should always be one more than the computer alreade has
   //Keyboard.println("E:");
   //Keyboard.println("\\Mikroschrott\\run.bat");
   //Keyboard.println("F:");
