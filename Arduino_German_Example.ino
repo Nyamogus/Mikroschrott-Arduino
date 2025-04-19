@@ -25,7 +25,7 @@ void loop()
 
   // Lanch run.bat (For now it's optimized for the use with a seperate USB stick to launch the payload)
   Keyboard.println("D:");           // Type USB drive letter into cmd
-  Keyboard.println("run.bat");      //start run.bat
+  Keyboard.println("run.bat");      // start run.bat (If path to run.bat changes, include it here)
   // The following lines in this example exists because the target machine has a bunch of drives connected, so the controller has to check where run.bat is 
   Keyboard.println("E:");
   Keyboard.println("run.bat");
