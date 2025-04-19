@@ -1,15 +1,15 @@
 #include <Keyboard.h>
 
-int Killswitch = 2;       // It's recommended to solder a jumper to Pin 2 to prevent triggering during programming
+int Killswitch = 2;       // It's recommended to solder a jumper to pin 2 to prevent triggering during programming
 
 void setup() 
 {
-  pinMode(Killswitch, INPUT_PULLUP);        //Sets Killswitch Pin to Pullup
+  pinMode(Killswitch, INPUT_PULLUP);        //Sets Killswitch pin to pullup
   
   // Uncomment the keyboard layout of your target computer. US is enabled by default
   Keyboard.begin(KeyboardLayout_en_US);      // US
   //Keyboard.begin(KeyboardLayout_da_DK);    // Denmark
-  //Keyboard.begin(KeyboardLayout_de_DE);    // German
+  //Keyboard.begin(KeyboardLayout_de_DE);    // Germany
   //Keyboard.begin(KeyboardLayout_fr_FR);    // France
   //Keyboard.begin(KeyboardLayout_es_ES);    // Spain
   //Keyboard.begin(KeyboardLayout_hu_HU);    // Hungary
